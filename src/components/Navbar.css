@@ -1,0 +1,28 @@
+.navbar {
+    background-color: #1b0606; 
+    padding: 10px; 
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  li {
+    text-decoration: none;
+    color: #fcf6f6; 
+    font-size: 16px;
+    padding: 10px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+  
+    /* Hover effect */
+    &:hover {
+      background-color: #0c0c0c; 
+    }
+  }
+
+  
